@@ -1,0 +1,406 @@
+.tariffs {
+  background: $light__silver;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.tariffs__title {
+  margin-bottom: 50px;
+}
+
+.tariffs__item {
+  .tariffs__item__card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 20px 28px 0 rgba(17, 130, 207, 0.1);
+    overflow: hidden;
+  }
+
+
+  &:nth-child(even) {
+    margin-top: 25px;
+  }
+}
+
+.tariffs__item__top,
+.tariffs__item__details,
+.tariffs__item__bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  p {
+    color: $dark__silver;
+  }
+}
+
+.tariffs__item__title {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 55px;
+}
+
+.tariffs__item__tokens {
+  font-size: 42px;
+  color: $pink;
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 35px;
+    margin-left: 15px;
+  }
+}
+
+.tariffs__item__details {
+  background: $light__blue;
+  width: 90%;
+  margin: 0 auto 20px;
+  border-radius: 8px;
+  padding: 15px 0;
+
+  h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  p:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+
+.tariffs__item__top {
+  p {
+    margin: 0;
+  }
+}
+
+.tariffs__item__description {
+  text-align: center;
+  font-size: 15px;
+  color: $black;
+  margin: 10px 0;
+  font-weight: normal;
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 45px;
+}
+
+.tariffs__item__bottom {
+  width: 100%;
+  padding: 20px 0 50px;
+}
+
+.tariffs__item__price {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.tariffs__item__btn {
+  margin-bottom: 10px;
+}
+
+.tariffs__item__benefit {
+  h5 {
+    margin: 0;
+    font-size: 14px;
+    color: $black;
+    text-transform: uppercase;
+
+    span {
+      display: inline-block;
+      padding: 5px 8px;
+      background-color: $green;
+      color: $white;
+      font-size: 14px;
+      margin-left: 5px;
+      position: relative;
+      transform: skewX(-10deg);
+
+      i {
+        display: block;
+        position: relative;
+        font-style: normal;
+        transform: skewX(10deg);
+      }
+    }
+  }
+
+}
+
+.tariffs__tokens {
+  width: 100%;
+  padding: 50px 0;
+  background: $light__blue;
+}
+
+.tariffs__tokens__item {
+  padding: 10px;
+}
+
+.tariffs__tokens__card {
+  min-height: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 20px 28px 0 rgba(17, 130, 207, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.tariffs__tokens__top {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+
+  img {
+    height: 100%;
+  }
+}
+
+.tariffs__tokens__title {
+  font-size: 20px;
+  margin: 0 auto 15px;
+  line-height: 1.2;
+  min-height: 50px;
+}
+
+.tools {
+  padding: 0 40px;
+
+  &__block {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+  }
+
+  &__link {
+    color: $black;
+    transition: all 0.4s;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+
+    i {
+      color: $pink;
+      font-size: 20px;
+      margin-right: 10px;
+    }
+
+    &:hover, &.active {
+      color: $pink;
+      text-decoration: none;
+    }
+  }
+}
+
+.difference {
+  background: $dark__blue;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.difference__top {
+  background: $white;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin-bottom: 80px;
+}
+
+.difference__top__item {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.difference__title {
+  color: $white;
+  margin-bottom: 50px;
+}
+
+.difference__avatar {
+  width: 70px;
+  height: 70px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.difference__username {
+  margin-bottom: 0;
+}
+
+.difference__info {
+  margin: 0;
+  color: $dark__silver;
+
+  &.h6 {
+    color: $black;
+  }
+}
+
+.difference__followers {
+  color: $pink;
+  margin-bottom: 0;
+}
+
+
+.difference__card {
+  background: $white;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  box-shadow: 0 20px 28px 0 rgba(17, 130, 207, 0.1);
+  position: relative;
+
+  &:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f309";
+    position: absolute;
+    top: -65px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: $white;
+    font-size: 35px;
+    text-align: center;
+  }
+}
+
+.difference__card__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+
+  i {
+    font-size: 50px;
+    color: $dark__blue;
+
+  }
+}
+
+.difference__card__title {
+  font-size: 14px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.difference__card__price {
+  font-size: 25px;
+  color: $pink;
+}
+
+.difference__card__info {
+  font-size: 16px;
+  color: $dark__silver;
+  padding: 10px;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+}
+
+.difference__card__footer {
+  background: $light__blue;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+
+  .difference__card__price {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+  }
+
+  .difference__card__info {
+    margin: 0 auto 5px;
+    padding: 0;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.difference__footer {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0;
+  text-align: center;
+  font-size: 20px;
+  color: $white;
+
+  img {
+    height: 35px;
+  }
+}
+
+.tariffs__tokens__footer {
+  max-width: 555px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  padding: 20px;
+  border: 2px solid $pink;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+
+  .tariffs__tokens__footer__icon {
+    position: absolute;
+    height: 55px;
+    top: -35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $light__blue;
+    padding: 10px;
+  }
+
+  img {
+
+    height: 35px;
+
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+.choose__rate {
+  width: max-content;
+  margin: 30px auto;
+  display: block;
+}
+
+.row_m30 {
+  margin-left: -30px;
+  margin-right: -30px;
+}

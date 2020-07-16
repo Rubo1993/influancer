@@ -1,0 +1,39 @@
+#registration_popup{
+  display: none;
+}
+.navbar  .nav-item.current_page_item a.nav-link
+{
+  border-bottom: 2px solid #fe2c55;
+}
+.clear_messages{
+  color: #fe2c55;
+  font-size: 13px;
+}
+.countries_field{
+  appearance: none;
+  border: 1px #dcdede solid;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 17px;
+  color: #000;
+  margin-top: 15px;
+}
+#menu-footer-menu li>a {
+  color: #000;
+  border-bottom: 2px solid transparent;
+  transition: all 0.4s;
+  padding: 0;
+  width: max-content;
+}
+#menu-footer-menu li>a:hover{
+  text-decoration: none;
+  color: #000;
+  border-color: #fe2c55;
+  transition: all 0.4s;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+  background-color: transparent;
+}

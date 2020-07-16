@@ -1,0 +1,627 @@
+#wp-link-textarea-tik-wrap {
+    display: none !important;
+}
+
+.row-tik {
+    margin: 6px 0;
+    /*background: #f5f5f5;*/
+    /*border: 1px solid #eee;*/
+    border-bottom-color: #ddd;
+    position: relative;
+    width: 100%;
+}
+
+.row-tik * {
+    box-sizing: border-box;
+}
+
+.row-tik .wp-picker-holder *,
+.row-tik .wp-editor-wrap * {
+    box-sizing: content-box;
+}
+
+.row-tik.half {
+    width: calc(50% - 5px);
+}
+
+.row-tik .label {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.row-tik .description {
+    padding: 0 8px 8px;
+    font-size: 12px;
+    color: #37474F;
+}
+
+.row-tik .label .input-label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1px;
+    margin-bottom: 1px;
+    padding-left: 1px;
+}
+
+.row-tik .label .input-wrapper {
+    width: 100%;
+}
+
+.row-tik .color-input-tik,
+.row-tik .checkbox-wrapper-tik,
+.row-tik .label .input-wrapper > select,
+.row-tik .label .input-wrapper > input,
+.row-tik .label .input-wrapper .placepicker_fields_tik,
+.row-tik .label .select2-container--default .select2-selection,
+.row-tik .label .input-wrapper > textarea {
+    width: 100%;
+    font-weight: normal;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    transition: 50ms border-color ease-in-out;
+    padding: 5px 7px;
+    border-radius: 0;
+    height: auto;
+}
+
+.row-tik .color-input-tik:focus,
+.row-tik .wp-picker-active .color-input-tik,
+.row-tik .label .input-wrapper > select:focus,
+.row-tik .label .input-wrapper > input:focus,
+.row-tik .label .input-wrapper .placepicker_fields_tik:focus,
+.row-tik .label .select2-container--open .select2-selection,
+.row-tik .label .input-wrapper > textarea:focus {
+    border-color: #5b9dd9;
+    box-shadow: 0 0 2px rgba(30, 140, 190, .8);
+}
+
+.row-tik .label .input-wrapper > input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.row-tik .label .select2-container .select2-selection--single {
+    height: 31px;
+}
+
+.row-tik .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: normal;
+    padding-left: 3px;
+}
+
+.row-tik .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 5px;
+}
+
+.row-tik .label .select2-container {
+    width: 100% !important;
+}
+
+.select2-container .select2-selection__rendered .fa.fa-2x {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.select2-container .select2-selection__rendered .fa.fa-2x + span {
+    padding-left: 40px;
+}
+
+.row-tik .select2-selection__clear {
+    font-size: 18px;
+    line-height: 0.9em;
+    color: #F44336;
+}
+
+.add-file-field-tik .delete-file-tik,
+.repeater-tik .repeater-tik-delete-item {
+    position: absolute;
+    color: white;
+    background: #F44336;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 1px 6px;
+}
+
+.add-file-field-tik .delete-file-tik {
+    top: 3px;
+    right: 3px;
+}
+
+.add-file-field-tik {
+    cursor: pointer;
+    height: 120px;
+    width: 150px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07);
+    background-color: #fff;
+}
+
+.add-file-field-tik .text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    width: 100%;
+    background: rgba(255, 255, 255, .8);
+    border-top: 1px solid #ddd;
+    line-height: 1.5em;
+    font-weight: 400;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.add-file-field-tik img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.add-file-field-tik img[src*="wp-includes/images/media/"] {
+    object-fit: contain;
+    padding: 25px 15px 35px;
+}
+
+.add-file-field-tik .attachment-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+}
+
+.link-tik {
+    background-color: white;
+    padding: 0 5px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07);
+    transition: 50ms border-color ease-in-out;
+    height: 31px;
+    box-sizing: border-box;
+}
+
+.link-tik .link-btn-tik {
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 31px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+/*.link-tik .link-delete-tik {*/
+/*text-decoration: none;*/
+/*margin-right: 10px;*/
+/*display: inline-block;*/
+/*color: #f44336;*/
+/*vertical-align: middle;*/
+/*}*/
+
+.row-tik .link-wrap {
+    font-size: 13px;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.row-tik .link-wrap .link-title {
+    display: inline-block;
+    max-width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+
+.row-tik .link-wrap .link-url{
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.textareat-tik {
+    width: 100%;
+    resize: vertical;
+    min-height: 40px;
+}
+
+.options-tik {
+    background-color: white;
+    padding: 5px;
+    margin-right: 1%;
+}
+
+.taxonomy-tik .row-tik {
+    background-color: transparent;
+}
+
+.taxonomy-tik td {
+    padding: 0;
+}
+
+.taxonomy-tik .row-tik .label {
+    flex-direction: row;
+}
+
+.taxonomy-tik .row-tik .label .input-label {
+    padding: 0 10px 20px 0;
+    width: 210px;
+    min-width: 210px;
+}
+
+.user-tik .repeater-tik .row-tik .label .input-label,
+.taxonomy-tik .repeater-tik .row-tik .label .input-label {
+    width: auto;
+    min-width: unset;
+    padding: 0 0 0 1px;
+}
+
+.user-tik .repeater-tik .row-tik .label,
+.taxonomy-tik .repeater-tik .row-tik .label {
+    flex-direction: column;
+}
+
+.user-tik .row-tik .label {
+    flex-direction: row;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.user-tik .row-tik .input-label {
+    margin-bottom: 0;
+    width: 200px;
+    min-width: 200px;
+    color: #23282d;
+}
+
+.user-tik .row-tik {
+    background-color: transparent;
+    padding: 0 5px;
+}
+
+.location-tik .placepicker-map_fields_tik {
+    min-height: 350px;
+}
+
+.location-tik .input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.location-tik .input-wrapper .input-group {
+    display: flex;
+    width: 100%;
+}
+
+.location-tik .latitude,
+.location-tik .longitude {
+    width: 100px !important;
+    background-color: #f8f8f8 !important;
+    cursor: default;
+}
+
+.location-tik input {
+    height: 24px;
+}
+
+.location-tik button {
+    cursor: pointer;
+    height: 31px;
+    outline: none;
+    background-color: #0085ba;
+    border: 1px solid #006799;
+    border-top-color: #0073aa;
+    color: white;
+    border-radius: 2px;
+    padding: 0 15px;
+}
+
+.location-tik .placepicker-map-wrapper {
+    overflow: hidden;
+    border: 1px solid #f5f5f5;
+}
+
+.fields-tik-error {
+    font-weight: normal;
+    background-color: #FF9800;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.fields-tik-error pre {
+    background: black;
+    padding: 5px;
+}
+
+.row-tik .select2-tik,
+.row-tik .select2_ajax-tik {
+    width: 100%;
+}
+
+.row-tik .wp-editor-wrap {
+    font-weight: normal;
+}
+
+/*repeater*/
+.repeater-tik .label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.repeater-tik sup {
+    font-size: 15px;
+    padding-left: 5px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.repeater-tik > .label {
+    font-size: 18px;
+}
+
+.repeater-tik {
+    margin: 0;
+    position: relative;
+    border: 1px solid #cccccc;
+    border-top: none;
+    padding: 0 0 10px 0;
+}
+
+.repeater-tik .repeater-tik-item {
+    position: relative;
+    margin: 0 0 10px 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.repeater-tik .repeater-tik-item .row-tik:last-child {
+    margin-bottom: 0;
+}
+
+.repeater-tik .repeater-tik-list {
+    margin: 0;
+}
+
+.repeater-tik.gallery .add-file-field-tik .delete-file-tik {
+    display: none !important;
+    font-size: 0;
+}
+
+.repeater-tik [data-repeater-create] {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 2px;
+}
+
+.repeater-tik [data-selected-values] {
+    display: none !important;
+    font-size: 0 !important;
+    visibility: hidden !important;
+}
+
+.repeater-tik.gallery {
+    background-color: #ebebeb;
+}
+
+.repeater-tik.gallery ul {
+    border-radius: 5px;
+    margin: 0 0 15px 0;
+}
+
+.repeater-tik.gallery .label {
+    padding: 5px 9px 9px 5px;
+}
+
+.repeater-tik.gallery .input-label {
+    font-size: 0;
+    display: none;
+}
+
+.repeater-tik.gallery ul li {
+    margin: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.repeater-tik.gallery [data-repeater-create] {
+    margin: 6px;
+}
+
+.repeater-tik.flex-box .repeater-tik-item {
+    display: flex;
+}
+
+.repeater-tik.flex-box .repeater-tik-item > * {
+    flex-grow: 1;
+    margin: 5px 4px;
+}
+
+.repeater-tik .repeater-tik > .label {
+    display: none;
+}
+
+.repeater-tik .repeater-tik {
+    margin: -15px -10px -20px;
+    border: 0;
+    background: #ebebeb;
+}
+
+.repeater-tik .repeater-tik-list .repeater-tik-item:first-child .repeater-tik-delete-item {
+    display: none;
+}
+
+.repeater-tik .ui-sortable-placeholder {
+    background-color: rgba(200, 200, 200, 0.2);
+    visibility: visible !important;
+    border-style: dashed;
+}
+
+.repeater-tik .repeater-tik-new-item {
+    margin-left: 8px;
+}
+
+.row-tik .wp-picker-container {
+    height: 34px;
+    padding: 0 5px;
+    position: relative;
+}
+
+.row-tik .wp-color-result .wp-color-result-text {
+    font-size: 0 !important;
+    display: none;
+}
+
+.row-tik .wp-picker-input-wrap {
+    display: none !important;
+}
+
+.row-tik .wp-color-result {
+    border: 0 !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.row-tik .wp-color-result:before {
+    content: "\f309";
+    font-family: dashicons;
+    color: #0073aa;
+    text-decoration: inherit;
+    font-weight: 400;
+    font-size: 2em;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.row-tik .input-wrapper .wp-color-result {
+    height: 34px;
+    padding: 5px 0 0 0;
+    position: relative;
+    z-index: 2;
+}
+
+.row-tik .wp-picker-holder {
+    position: absolute;
+    z-index: 9999;
+    left: 0;
+    top: 100%;
+}
+
+.row-tik .color-input-tik {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 50px;
+    background-color: white;
+}
+
+.nav-tabs-panel-tik {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.inside-tik {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-tab-wrapper-tik {
+    width: 100%;
+}
+
+.group-tik {
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.edit-post-meta-boxes-area .inside.inside-tik {
+    box-sizing: border-box
+}
+
+.row-tik .wp-switch-editor {
+    box-sizing: content-box;
+}
+
+.tab-tik {
+    width: 100%;
+}
+
+.inside-tik .tab-tik .nav-tab {
+    background: #f5f5f5;
+}
+
+.inside-tik .tab-tik .nav-tab-active {
+    background: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.row-tik .checkbox-wrapper-tik {
+    width: 90px;
+    height: 31px;
+    display: flex;
+    position: relative;
+}
+
+.row-tik .checkbox-wrapper-tik .switch-tik {
+    height: 25px;
+    width: 40px;
+    background-color: #e5e5e5;
+    box-shadow: 0 -0.5px 0.5px #afafaf inset;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: all 0.3s;
+}
+
+.row-tik .checkbox-wrapper-tik input:checked + .switch-tik {
+    background-color: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    left: 46px;
+}
+
+.row-tik .checkbox-wrapper-tik input {
+    display: none !important;
+}
+
+
+/*.row-tik .wp-picker-clear:before{*/
+/*content: "\f1f8";*/
+/*font: normal normal normal 14px/1 FontAwesome;*/
+/*font-size: 2em;*/
+/*text-rendering: auto;*/
+/*-webkit-font-smoothing: antialiased;*/
+/*-moz-osx-font-smoothing: grayscale;*/
+/*color: #f44336;*/
+/*}*/

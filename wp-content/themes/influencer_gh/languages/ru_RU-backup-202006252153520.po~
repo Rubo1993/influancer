@@ -1,0 +1,246 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Influencer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-25 21:51+0000\n"
+"PO-Revision-Date: 2020-06-25 21:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: template-parts/registration-form.php:21
+#: template-parts/popup-registration.php:23
+msgid "Agency"
+msgstr ""
+
+#. Author of the theme
+msgid "Anonymous"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:166
+msgid "Auto pay"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:124
+msgid "Auto pay image"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:130
+msgid "Auto pay text"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:127
+msgid "Auto pay title"
+msgstr ""
+
+#: template-parts/registration-form.php:24
+#: template-parts/popup-registration.php:26
+msgid "Brand / Agency Name"
+msgstr ""
+
+#: template-parts/registration-form.php:17
+#: template-parts/popup-registration.php:19
+msgid "Brend"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:168
+msgid "Demo part"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:159
+msgid "Demo part text"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:155
+msgid "Demo part title"
+msgstr ""
+
+#: template-parts/popup-registration.php:48
+msgid "Get access"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:163
+msgid "Header"
+msgstr ""
+
+#: functions.php:24 functions.php:32
+msgid "Header Menu"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:16
+msgid "Header user item"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:164
+msgid "Header user itm"
+msgstr ""
+
+#. Name of the theme
+msgid "Influencer"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:24
+msgid "Item 1 comment count"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:29
+msgid "Item 1 image"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:19
+msgid "Item 1 like count"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:42
+msgid "Item 2 image"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:37
+msgid "Item 2 payback text"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:33
+msgid "Item 2 percent"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:51
+msgid "Item 3 comment count"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:58
+msgid "Item 3 image"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:46
+msgid "Item 3 like count"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:71
+msgid "Item 4 image"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:66
+msgid "Item 4 payback text"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:62
+msgid "Item 4 percent"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:79
+msgid "Item 5 comment count"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:89
+msgid "Item 5 image"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:75
+msgid "Item 5 percent"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:84
+msgid "Item 5 view count"
+msgstr ""
+
+#: template-parts/registration-form.php:46
+msgid "More"
+msgstr ""
+
+#: template-parts/registration-form.php:40
+#: template-parts/popup-registration.php:42
+msgid "Password"
+msgstr ""
+
+#: template-parts/registration-form.php:37
+#: template-parts/popup-registration.php:39
+msgid "Phone"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:111
+msgid "Prioriti description"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:167
+msgid "Secure transactions"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:141
+msgid "Secure transactions icon"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:138
+msgid "Secure transactions items"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:145
+msgid "Secure transactions name"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:152
+msgid "Secure transactions text"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:134
+msgid "Secure transactions title"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:97
+#: includes/custom-fields/front-page.php:165
+msgid "Software"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:108
+msgid "Software description title"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:100
+msgid "Software icon"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:115
+msgid "Software image"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:103
+msgid "Software menu item"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:94
+msgid "Software title"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:11
+msgid "Text"
+msgstr ""
+
+#: includes/custom-fields/front-page.php:7
+msgid "Title"
+msgstr ""
+
+#: template-parts/registration-form.php:14
+#: template-parts/popup-registration.php:16
+msgid "Who you are ?"
+msgstr ""
+
+#: template-parts/registration-form.php:9
+#: template-parts/popup-registration.php:11
+msgid "Your email"
+msgstr ""
+
+#: template-parts/registration-form.php:34
+#: template-parts/popup-registration.php:36
+msgid "Your name"
+msgstr ""
+
+#: template-parts/registration-form.php:28
+#: template-parts/popup-registration.php:30
+msgid "Your website"
+msgstr ""

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="276px" height="24px" viewBox="0 0 276 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#fe2c55" offset="0%"></stop>
+            <stop stop-color="#fe2c55" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03.00-landing" transform="translate(-630.000000, -3838.000000)" fill="url(#linearGradient-1)">
+            <g id="securyty" transform="translate(-2.000000, 3684.000000)">
+                <g id="Group-17" transform="translate(432.000000, 130.000000)">
+                    <g id="growth" transform="translate(108.000000, 0.000000)">
+                        <path d="M357.594461,33 L356.020815,24 L368.041631,36.0208153 L356.020815,48.0416306 L357.620229,39 L92,39 L92,33 L357.594461,33 Z"
+                              id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
